@@ -26,7 +26,7 @@ jobs:
   deploy:
     environment:
       name: bishalchoudhury-2002.github.io
-      url: #{{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}}
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
