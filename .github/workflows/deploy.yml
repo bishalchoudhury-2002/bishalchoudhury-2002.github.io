@@ -25,4 +25,4 @@ jobs:
           AUTHOR: bishalchoudhury-2002
           BUILD_PATH: public
           GITHUB_PAGE_NAME: bishalchoudhury-2002.github.io
-          PA_TOKEN: #{{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}}
+          PA_TOKEN: #{{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}}
